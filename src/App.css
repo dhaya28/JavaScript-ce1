@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.main{
+  border: 2px;
+  border-style: hidden;
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  background-color: #c1eaf6;
+  padding-left: 10px;
+}
+h2{
+  text-align: center;
+}
+.inform{
+  text-align: center;
+  background-color: #c1eaf6;
+}
+input{
+  background: transparent;
+  border: hidden;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-size: 17px;
+}
+
+button{
+  background: transparent;
+  outline: none;
+}
+.genderButton{
+  font-size: 17px;
+}
