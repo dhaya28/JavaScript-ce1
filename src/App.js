@@ -42,12 +42,16 @@
 import ClassComp from "./Components/ClassComp";
 import FunctionalComp from "./Components/FunctionalComp";
 import OneExport from "./Components/OneExport";
+import PropsClass from "./day 4/PropsClass";
+import PropsFunction from "./day 4/PropsFunction";
 export default function App(){
   return (
     <div>
     <FunctionalComp></FunctionalComp>
     <ClassComp></ClassComp>
     <OneExport></OneExport>
+    <PropsFunction name='Dhayananth'></PropsFunction>
+    <PropsClass college="skct"></PropsClass>
     </div>
     )
 }
