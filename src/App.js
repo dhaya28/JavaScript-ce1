@@ -1,12 +1,11 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-
-// function App() {
-  //   return (
-    //     <div className='main'>
-    //       <br></br>
-    //       <h2>Register Here...</h2><br></br>
+// export default function App() {
+//     return (
+//         <div className='main'>
+//           <br></br>
+//           <h2>Register Here...</h2><br></br>
 //       <div className='inform'>
 //         <form>
 //           <input type='text' placeholder='username'></input>
@@ -42,8 +41,15 @@
 import ClassComp from "./Components/ClassComp";
 import FunctionalComp from "./Components/FunctionalComp";
 import OneExport from "./Components/OneExport";
+import DefaultProps from "./day 4/DefaultProps";
+import DynamicRendering from "./day 4/DynamicRendering";
+import Parent from "./day 4/ParentChildCommunication";
 import PropsClass from "./day 4/PropsClass";
 import PropsFunction from "./day 4/PropsFunction";
+import StateClassComp from "./day 4/StateClassComp";
+import StateFunction from "./day 4/StateFunction";
+import StateHoldObject from "./day 4/StateHoldObject";
+import TwoWayBinding from "./day 4/TwoWayBinding";
 export default function App(){
   return (
     <div>
@@ -52,6 +58,14 @@ export default function App(){
     <OneExport></OneExport>
     <PropsFunction name='Dhayananth'></PropsFunction>
     <PropsClass college="skct"></PropsClass>
+    <StateClassComp></StateClassComp>
+    <StateFunction></StateFunction>
+    <StateHoldObject></StateHoldObject>
+    <Parent></Parent>
+    <DynamicRendering></DynamicRendering>
+    <TwoWayBinding></TwoWayBinding>
+    <DefaultProps name="rec"></DefaultProps>
+    <DefaultProps></DefaultProps>
     </div>
     )
 }
