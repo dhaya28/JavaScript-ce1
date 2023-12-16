@@ -1,71 +1,74 @@
 // import logo from './logo.svg';
-// import './App.css';
 
+// import ClassComp from "./Components/ClassComp";
+// import FunctionalComp from "./Components/FunctionalComp";
+// import OneExport from "./Components/OneExport";
+// import DefaultProps from "./day 4/DefaultProps";
+// import DynamicRendering from "./day 4/DynamicRendering";
+// import Parent from "./day 4/ParentChildCommunication";
+// import PropsClass from "./day 4/PropsClass";
+// import PropsFunction from "./day 4/PropsFunction";
+// import StateClassComp from "./day 4/StateClassComp";
+// import StateFunction from "./day 4/StateFunction";
+// import StateHoldObject from "./day 4/StateHoldObject";
+// import TwoWayBinding from "./day 4/TwoWayBinding";
+//     <FunctionalComp></FunctionalComp>
+//     <ClassComp></ClassComp>
+//     <OneExport></OneExport>
+//     <PropsFunction name='Dhayananth'></PropsFunction>
+//     <PropsClass college="skct"></PropsClass>
+//     <StateClassComp></StateClassComp>
+//     <StateFunction></StateFunction>
+//     <StateHoldObject></StateHoldObject>
+//     <Parent></Parent>
+//     <DynamicRendering></DynamicRendering>
+//     <TwoWayBinding></TwoWayBinding>
+//     <DefaultProps name="rec"></DefaultProps>
+//     <DefaultProps></DefaultProps>
+
+
+// import './App.css';
+// import Navigate from './Navigate';
+// import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+// import ProjectLogin from './Project/ProjectLogin';
+// import ProjectSignup from './Project/ProjectSignup'
 // export default function App() {
-//     return (
-//         <div className='main'>
-//           <br></br>
-//           <h2>Register Here...</h2><br></br>
-//       <div className='inform'>
-//         <form>
-//           <input type='text' placeholder='username'></input>
-//           <br></br>
-//           <br></br>
-//           <input type='password' placeholder='password'></input>
-//           <br></br>
-//           <br></br>
-//           <input type='number' placeholder='age'></input>
-//           <br></br>
-//           <br></br>
-//           <div className='genderButton'>
-//             <lable>Gender</lable>
-//             <input type='radio' name='a'></input>Male
-//             <input type='radio' name='a'></input>Female
-//           </div>
-//           <br></br>
-//           <input type='phonenumber' placeholder='mobile number'></input>
-//           <br></br>
-//           <br></br>
-//           <input type='textarea' placeholder='address'></input>
-//           <br></br>
-//           <br></br>
-//           <button>Register</button>
-//         </form>
-//       </div>
+//   return (
+//     <div>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path='/login' element=<ProjectLogin></ProjectLogin> ></Route>
+//           <Route path='/signup' element=<ProjectSignup></ProjectSignup> ></Route>
+//         </Routes>
+//       </BrowserRouter>
 //     </div>
-//   );
+//   )
 // }
 
-// export default App;
 
-import ClassComp from "./Components/ClassComp";
-import FunctionalComp from "./Components/FunctionalComp";
-import OneExport from "./Components/OneExport";
-import DefaultProps from "./day 4/DefaultProps";
-import DynamicRendering from "./day 4/DynamicRendering";
-import Parent from "./day 4/ParentChildCommunication";
-import PropsClass from "./day 4/PropsClass";
-import PropsFunction from "./day 4/PropsFunction";
-import StateClassComp from "./day 4/StateClassComp";
-import StateFunction from "./day 4/StateFunction";
-import StateHoldObject from "./day 4/StateHoldObject";
-import TwoWayBinding from "./day 4/TwoWayBinding";
-export default function App(){
+// import React from 'react'
+// import ErrorBoundary from './Day 8/ErrorBoundary'
+// import Car from './Day 8/Car'
+// import TryCatch from './Day 8/TryCatch'
+
+// export default function App() {
+//   return (
+//     <div>
+//       <ErrorBoundary>
+//         <Car carName="JCB"></Car>
+//       </ErrorBoundary>
+//     </div>
+//   )
+// }
+import React from 'react'
+import TryCatch from './Day 8/TryCatch'
+import ComponentLifeCycle from './Day 8/ComponentLifeCycle'
+
+export default function App() {
   return (
     <div>
-    <FunctionalComp></FunctionalComp>
-    <ClassComp></ClassComp>
-    <OneExport></OneExport>
-    <PropsFunction name='Dhayananth'></PropsFunction>
-    <PropsClass college="skct"></PropsClass>
-    <StateClassComp></StateClassComp>
-    <StateFunction></StateFunction>
-    <StateHoldObject></StateHoldObject>
-    <Parent></Parent>
-    <DynamicRendering></DynamicRendering>
-    <TwoWayBinding></TwoWayBinding>
-    <DefaultProps name="rec"></DefaultProps>
-    <DefaultProps></DefaultProps>
+      <ComponentLifeCycle></ComponentLifeCycle>
     </div>
-    )
+  )
 }
+
