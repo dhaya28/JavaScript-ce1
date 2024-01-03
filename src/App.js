@@ -61,13 +61,17 @@
 //   )
 // }
 import React from 'react'
-import TryCatch from './Day 8/TryCatch'
-import ComponentLifeCycle from './Day 8/ComponentLifeCycle'
+import { Provider } from 'react-redux'
+import store from './Thunk/Store'
+import CounterComponent from './Thunk/CounterComponent'
 
 export default function App() {
   return (
+
     <div>
-      <ComponentLifeCycle></ComponentLifeCycle>
+      <Provider store={store}>
+      <CounterComponent></CounterComponent>
+      </Provider>
     </div>
   )
 }
